@@ -45,6 +45,7 @@
 }
 
 .user-email, .user-phone{
+  display: block;
   margin: 0.4rem 0;
   font-size: 1.6rem;
 }

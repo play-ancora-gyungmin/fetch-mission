@@ -9,7 +9,7 @@ const getUserList = async function() {
       userItemMaker(user);
     });
   }catch(err){
-    console.log(err);
+    alert("데이터를 불러올 수 없습니다.");
   }
 }
 
@@ -26,8 +26,8 @@ const userItemMaker = function(user) {
       </div>
       <div class="user-info-wrap">
         <h3 class="user-name">${userName}</h3>
-        <p class="user-email">${userEmail}</p>
-        <p class="user-phone">${userPhone}</p>
+        <a href="mailto:${userEmail}" class="user-email">${userEmail}</p>
+        <a href="tel:${userPhone}" class="user-phone">${userPhone}</p>
       </div>
     </div>
   `;
