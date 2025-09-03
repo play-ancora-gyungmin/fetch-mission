@@ -48,3 +48,7 @@
   margin: 0.4rem 0;
   font-size: 1.6rem;
 }
+
+.user-item:hover{
+  height: 16rem;
+}
